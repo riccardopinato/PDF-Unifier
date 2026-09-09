@@ -43,13 +43,22 @@ internal fun rememberPdfPage(model: PdfReaderViewModel, index: Int, edge: Int): 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: () -> Unit, onExternal: () -> Unit, onShare: () -> Unit) {
+internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: () -> Unit, onExternal: () -> Unit, onShare: () -> Unit, ocrExportBusy: Boolean, onSaveOcrText: (String, Int) -> Unit) {
     val count by model.count
     val page by model.page
     val error by model.error
-    if (model.ocr.ui.visible) PdfOcrSheet(model.ocr)
+    val exportNotice = model.ocrExport.notice
+    if (model.ocr.ui.visible) PdfOcrSheet(model.ocr, ocrExportBusy,
+        exportNotice?.resource, onSaveOcrText)
     val positionWarning by model.positionWarning
     val snackbar = remember { SnackbarHostState() }
+    val exportMessage = exportNotice?.let { stringResource(it.resource) }
+    LaunchedEffect(exportNotice?.id, model.ocr.ui.visible) {
+        if (exportNotice != null && !model.ocr.ui.visible) {
+            snackbar.showSnackbar(exportMessage.orEmpty())
+            model.ocrExport.clearNotice(exportNotice.id)
+        }
+    }
     val positionErrorText = stringResource(R.string.reading_position_error)
     LaunchedEffect(positionWarning) {
         if (positionWarning) {

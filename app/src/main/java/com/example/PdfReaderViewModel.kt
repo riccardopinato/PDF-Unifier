@@ -21,6 +21,7 @@ import java.io.File
 internal class PdfReaderViewModel(context: Context, private val initialPage: Int?) : ViewModel() {
     private val app = context.applicationContext
     private val store = PdfRenderStore(app)
+    val ocrExport = PdfOcrExportController(app, viewModelScope)
     val ocr = PdfOcrController(viewModelScope) { index ->
         recognizePdfBitmap(store.render(index, 2000))
     }

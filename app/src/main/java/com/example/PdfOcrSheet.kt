@@ -17,7 +17,8 @@ import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun PdfOcrSheet(controller: PdfOcrController) {
+internal fun PdfOcrSheet(controller: PdfOcrController, exportBusy: Boolean,
+    exportNoticeResource: Int?, onSaveText: (String, Int) -> Unit) {
     val state = controller.ui
     val context = LocalContext.current
     var copied by remember(state.text) { mutableStateOf(false) }
@@ -45,6 +46,13 @@ internal fun PdfOcrSheet(controller: PdfOcrController) {
                     state.text.isNullOrBlank() -> Text(stringResource(R.string.ocr_empty))
                     else -> SelectionContainer { Text(state.text.orEmpty()) }
                 }
+            }
+            if (exportBusy) Text(stringResource(R.string.ocr_export_busy))
+            exportNoticeResource?.let { Text(stringResource(it), style = MaterialTheme.typography.bodySmall) }
+            OutlinedButton(modifier = Modifier.fillMaxWidth(),
+                enabled = !exportBusy && !state.running && !state.failed && !state.text.isNullOrBlank(),
+                onClick = { onSaveText(state.text.orEmpty(), state.page) }) {
+                Text(stringResource(R.string.ocr_export_action))
             }
             if (copied) Text(stringResource(R.string.ocr_copied))
             if (copyFailed) Text(stringResource(R.string.ocr_copy_failed), color = MaterialTheme.colorScheme.error)

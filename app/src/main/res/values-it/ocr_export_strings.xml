@@ -1,0 +1,7 @@
+<resources>
+    <string name="ocr_export_action">Salva testo con nome…</string>
+    <string name="ocr_export_busy">Preparazione o salvataggio del testo…</string>
+    <string name="ocr_export_saved">Testo salvato</string>
+    <string name="ocr_export_prepare_failed">Impossibile preparare il testo per il salvataggio. Riprova.</string>
+    <string name="ocr_export_failed">Impossibile salvare il testo. Riprova. Verifica la cartella scelta: potrebbe essere rimasto un file vuoto o incompleto.</string>
+</resources>
