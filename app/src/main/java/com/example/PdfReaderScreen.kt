@@ -47,6 +47,7 @@ internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: ()
     val count by model.count
     val page by model.page
     val error by model.error
+    if (model.ocr.ui.visible) PdfOcrSheet(model.ocr)
     val positionWarning by model.positionWarning
     val snackbar = remember { SnackbarHostState() }
     val positionErrorText = stringResource(R.string.reading_position_error)
@@ -93,6 +94,7 @@ internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: ()
                             showBookmarks = true
                         },
                         onThumbnails = { showThumbnails = true },
+                        onOcr = { model.ocr.start(page) },
                         onShare = onShare,
                         onExternal = onExternal
                     )

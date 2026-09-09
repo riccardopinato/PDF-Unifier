@@ -81,6 +81,7 @@ dependencies {
   implementation(libs.androidx.core.splashscreen)
   implementation(libs.pdfbox.android)
   implementation("androidx.exifinterface:exifinterface:1.4.2")
+  implementation("com.google.mlkit:text-recognition:16.0.1")
   implementation(libs.play.services.ads)
   implementation(platform(libs.androidx.compose.bom))
   implementation(platform(libs.firebase.bom))

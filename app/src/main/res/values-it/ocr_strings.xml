@@ -1,0 +1,15 @@
+<resources>
+    <string name="ocr_action">Riconosci testo pagina</string>
+    <string name="ocr_page_title">Testo di pagina %1$d</string>
+    <string name="ocr_description">Riconosce il testo in caratteri latini di questa pagina. Controlla eventuali errori prima di usarlo. Il PDF resta invariato.</string>
+    <string name="ocr_running">Riconoscimento del testo…</string>
+    <string name="ocr_empty">Nessun testo riconosciuto. Prova una pagina più nitida con testo orientato correttamente.</string>
+    <string name="ocr_failed">Impossibile riconoscere il testo di questa pagina.</string>
+    <string name="ocr_too_long">Il risultato è troppo lungo da mostrare. Nessun testo è stato copiato.</string>
+    <string name="ocr_retry">Riprova</string>
+    <string name="ocr_cancel">Annulla</string>
+    <string name="ocr_close">Chiudi</string>
+    <string name="ocr_copy">Copia testo</string>
+    <string name="ocr_copied">Testo copiato</string>
+    <string name="ocr_copy_failed">Impossibile copiare il testo.</string>
+</resources>

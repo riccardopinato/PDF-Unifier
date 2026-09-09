@@ -1,0 +1,15 @@
+<resources>
+    <string name="ocr_action">Recognize page text</string>
+    <string name="ocr_page_title">Text from page %1$d</string>
+    <string name="ocr_description">Recognizes Latin-script text on this page. Check the result for errors before using it. The PDF is unchanged.</string>
+    <string name="ocr_running">Recognizing text…</string>
+    <string name="ocr_empty">No text recognized. Try a clearer page with upright text.</string>
+    <string name="ocr_failed">Unable to recognize text on this page.</string>
+    <string name="ocr_too_long">The result is too long to display. No text has been copied.</string>
+    <string name="ocr_retry">Retry</string>
+    <string name="ocr_cancel">Cancel</string>
+    <string name="ocr_close">Close</string>
+    <string name="ocr_copy">Copy text</string>
+    <string name="ocr_copied">Text copied</string>
+    <string name="ocr_copy_failed">Unable to copy text.</string>
+</resources>

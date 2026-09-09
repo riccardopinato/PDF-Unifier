@@ -8,6 +8,7 @@ import androidx.compose.material.icons.filled.GridView
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.OpenInNew
 import androidx.compose.material.icons.filled.Share
+import androidx.compose.material.icons.filled.TextSnippet
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.res.stringResource
@@ -18,6 +19,7 @@ internal fun PdfReaderMenu(
     bookmarked: Boolean,
     onBookmarks: () -> Unit,
     onThumbnails: () -> Unit,
+    onOcr: () -> Unit,
     onShare: () -> Unit,
     onExternal: () -> Unit
 ) {
@@ -36,6 +38,10 @@ internal fun PdfReaderMenu(
                 leadingIcon = { Icon(if (bookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
                     contentDescription = null) },
                 onClick = { expanded = false; onBookmarks() })
+            DropdownMenuItem(enabled = ready,
+                text = { Text(stringResource(R.string.ocr_action)) },
+                leadingIcon = { Icon(Icons.Default.TextSnippet, contentDescription = null) },
+                onClick = { expanded = false; onOcr() })
             HorizontalDivider()
             DropdownMenuItem(enabled = ready,
                 text = { Text(stringResource(R.string.reader_share_pdf)) },

@@ -21,6 +21,9 @@ import java.io.File
 internal class PdfReaderViewModel(context: Context, private val initialPage: Int?) : ViewModel() {
     private val app = context.applicationContext
     private val store = PdfRenderStore(app)
+    val ocr = PdfOcrController(viewModelScope) { index ->
+        recognizePdfBitmap(store.render(index, 2000))
+    }
     private val positions = PdfReadingPositionStore(File(app.filesDir, "pdf_reading_positions"))
     val search = PdfSearchController(app, viewModelScope)
     val bookmarks = PdfBookmarkController(app, viewModelScope)
