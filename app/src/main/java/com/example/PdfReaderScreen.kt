@@ -6,12 +6,8 @@ import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.OpenInNew
-import androidx.compose.material.icons.filled.GridView
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Bookmark
-import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -47,7 +43,7 @@ internal fun rememberPdfPage(model: PdfReaderViewModel, index: Int, edge: Int): 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: () -> Unit, onExternal: () -> Unit) {
+internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: () -> Unit, onExternal: () -> Unit, onShare: () -> Unit) {
     val count by model.count
     val page by model.page
     val error by model.error
@@ -83,25 +79,23 @@ internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: ()
                 },
                 actions = {
                     IconButton(enabled = count > 0, onClick = {
-                        model.bookmarks.refresh()
-                        showBookmarks = true
-                    }) {
-                        Icon(if (page in bookmarkState.pages) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
-                            stringResource(R.string.bookmark_title))
-                    }
-                    IconButton(enabled = count > 0, onClick = {
                         showSearch = !showSearch
                         if (!showSearch) model.search.cancel()
                     }) {
                         Icon(if (showSearch) Icons.Default.Close else Icons.Default.Search,
                             stringResource(if (showSearch) R.string.search_close else R.string.search_label))
                     }
-                    IconButton(enabled = count > 0, onClick = { showThumbnails = true }) {
-                        Icon(Icons.Default.GridView, stringResource(R.string.reader_thumbnails))
-                    }
-                    IconButton(onClick = onExternal) {
-                        Icon(Icons.Default.OpenInNew, stringResource(R.string.reader_external))
-                    }
+                    PdfReaderMenu(
+                        ready = count > 0,
+                        bookmarked = page in bookmarkState.pages,
+                        onBookmarks = {
+                            model.bookmarks.refresh()
+                            showBookmarks = true
+                        },
+                        onThumbnails = { showThumbnails = true },
+                        onShare = onShare,
+                        onExternal = onExternal
+                    )
                 }
             )
             if (showSearch && count > 0) PdfSearchPanel(model.search) { target ->

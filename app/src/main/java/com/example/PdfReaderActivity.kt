@@ -29,7 +29,8 @@ class PdfReaderActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 PdfReaderScreen(reader, name, onBack = { finish() },
-                    onExternal = { openPdfExternally(this, uri) })
+                    onExternal = { openPdfExternally(this, uri) },
+                    onShare = { sharePdfFromReader(this, uri, name) })
             }
         }
     }

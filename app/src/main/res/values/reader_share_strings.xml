@@ -1,0 +1,5 @@
+<resources>
+    <string name="reader_more_actions">More actions</string>
+    <string name="reader_share_pdf">Share PDF</string>
+    <string name="reader_share_failed">Unable to open sharing for this PDF. Try opening the document again.</string>
+</resources>
