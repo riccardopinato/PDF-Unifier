@@ -1,0 +1,3 @@
+<resources>
+    <string name="reading_position_error">Unable to restore or save the reading position. You can keep reading.</string>
+</resources>

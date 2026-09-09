@@ -1,0 +1,6 @@
+<resources>
+    <string name="reader_thumbnails">Pages</string>
+    <string name="reader_go_to_page">Go to page</string>
+    <string name="reader_go">Go</string>
+    <string name="reader_thumbnail_failed">No preview</string>
+</resources>

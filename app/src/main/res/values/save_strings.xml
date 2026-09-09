@@ -1,0 +1,5 @@
+<resources>
+    <string name="pdf_save_as">Save a copy as…</string>
+    <string name="pdf_save_success">Copy saved to the selected destination. The source document was kept.</string>
+    <string name="pdf_save_failed">The copy could not be completed. Your source document is still available. If the provider refused cleanup, remove the incomplete destination file.</string>
+</resources>

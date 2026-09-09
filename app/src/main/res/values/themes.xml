@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principale dell'applicazione -->
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <!-- Stile personalizzato per il Dialog di Info in Dark Mode -->
+    <style name="Theme.PdfUnifier.Dialog" parent="android:Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowBackground">#1E1E1E</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:colorAccent">#81C784</item>
+    </style>
+
+    <!-- Tema dello Splash Screen (AndroidX SplashScreen API) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Sfondo scuro coordinato con la nostra Dark Mode -->
+        <item name="windowSplashScreenBackground">#121212</item>
+        <!-- Icona al centro (icona dell'app) -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <!-- Durata dell'animazione -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <!-- Tema reale a cui passare subito dopo l'avvio -->
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+</resources>

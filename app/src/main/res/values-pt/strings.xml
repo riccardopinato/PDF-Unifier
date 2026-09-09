@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">Mesclar PDF</string>
+    <string name="tab_image_to_pdf">Imagens para PDF</string>
+    <string name="tab_split_pdf">Dividir PDF</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">Mescle seus PDFs</string>
+    <string name="title_image_to_pdf">Imagens para PDF</string>
+    <string name="title_split_pdf">Divida seu PDF</string>
+    <string name="subtitle_merge_pdf">Mescle vários arquivos PDF localmente e compartilhe instantaneamente.</string>
+    <string name="subtitle_image_to_pdf">Converta e formate suas fotos em um documento PDF.</string>
+    <string name="subtitle_split_pdf">Extraia um intervalo de páginas e crie um novo documento PDF.</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ Adicionar PDF</string>
+    <string name="add_images_btn">+ Adicionar Imagens</string>
+    <string name="select_pdf_btn">+ Selecionar PDF</string>
+    <string name="clear_list_btn">Limpar Lista</string>
+    <string name="list_cleared">Lista limpa</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">Documentos selecionados (%1$d):</string>
+    <string name="selected_images_count">Imagens selecionadas (%1$d):</string>
+    <string name="selected_split_file_count">Arquivo para dividir (%1$d):</string>
+    <string name="reorder_hint">Use as setas para reordenar</string>
+    <string name="no_files_merge_placeholder">Nenhum arquivo selecionado.\nAdicione pelo menos dois PDFs para mesclá-los.</string>
+    <string name="no_files_images_placeholder">Nenhuma imagem selecionada.\nAdicione fotos para gerar o PDF.</string>
+    <string name="no_files_split_placeholder">Nenhum PDF selecionado.\nCarregue o arquivo para dividir.</string>
+    <string name="no_files_selected">Nenhum arquivo selecionado.\nAdicione pelo menos dois PDFs para mesclá-los.</string>
+    <string name="no_images_selected">Nenhuma imagem selecionada.\nAdicione fotos para gerar o PDF.</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">Intervalo de extração</string>
+    <string name="split_load_hint">Carregue um PDF para ver as páginas disponíveis</string>
+    <string name="split_total_pages">Páginas totais do arquivo: %1$d</string>
+    <string name="split_from_label">De:</string>
+    <string name="split_to_label">Até:</string>
+    <string name="split_invalid_range">Intervalo de páginas inválido!</string>
+    <string name="toast_splitting">Extraindo páginas em andamento…</string>
+    <string name="split_save_btn">Dividir e Salvar</string>
+    <string name="split_share_btn">Dividir e Compartilhar</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">Mover para cima</string>
+    <string name="move_down">Mover para baixo</string>
+    <string name="remove_file">Remover arquivo</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">Compressão de PDF</string>
+    <string name="compress_subtitle">Reduzir o tamanho do arquivo final</string>
+    <string name="compress_pdf_title">Compressão PDF</string>
+    <string name="compress_images_title">Qualidade das Imagens</string>
+    <string name="compress_pdf_active_subtitle">Otimização de imagens ativa (~50%)</string>
+    <string name="compress_images_active_subtitle">Compressão JPEG ativa (~50% de qualidade para arquivo leve)</string>
+    <string name="compress_inactive_subtitle">Reduzir o tamanho do arquivo final</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">Mesclar e Salvar</string>
+    <string name="merge_share_btn">Mesclar e Compartilhar</string>
+    <string name="convert_save_btn">Converter e Salvar</string>
+    <string name="convert_share_btn">Converter e Compartilhar</string>
+    <string name="processing">Processando…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">Operação concluída com sucesso!</string>
+    <string name="share_again">Compartilhar novamente</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">Suíte PDF 100% offline e privada:\n\n• Mesclar PDF: combine vários documentos PDF na ordem desejada\n• Imagens para PDF: converta fotos (JPG, PNG, WebP) em PDF\n• Compressão offline: otimize imagens para reduzir o tamanho\n• Salvamento em Documentos e compartilhamento direto</string>
+    <string name="dialog_ok">OK</string>
+    <string name="info_title">Informações e Privacidade</string>
+    <string name="info_message">O PDF Unifier Pro é um aplicativo 100% offline projetado para proteger sua privacidade. Todo o processamento é feito localmente no seu dispositivo. Seus documentos nunca são enviados a nenhum servidor.\n\nVersão: 1.0.0\nMotor: PDFBox-Android</string>
+    <string name="info_privacy_button">Política de Privacidade</string>
+    <string name="info_close_button">Fechar</string>
+    <string name="error_open_link">Não foi possível abrir o link.</string>
+
+    <!-- History Strings -->
+    <string name="history_title">Histórico de PDF</string>
+    <string name="history_empty">Nenhum PDF criado ainda.\nSeus arquivos processados aparecerão aqui!</string>
+    <string name="history_open">Abrir</string>
+    <string name="history_share">Compartilhar</string>
+    <string name="history_delete">Excluir</string>
+    <string name="history_type_merge">Mesclar PDF</string>
+    <string name="history_type_image_to_pdf">Imagens para PDF</string>
+    <string name="history_type_split">Dividir PDF</string>
+    <string name="history_btn_desc">Histórico</string>
+    <string name="history_file_not_found">O arquivo não existe mais no dispositivo.</string>
+    <string name="history_item_deleted">Item removido do histórico.</string>
+    <string name="history_clear_all">Limpar tudo</string>
+    <string name="no_pdf_viewer_app">Nenhum aplicativo instalado para visualizar PDF.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">Mesclando documentos…</string>
+    <string name="converting_toast">Gerando PDF a partir de imagens…</string>
+    <string name="success_toast">PDF processado com sucesso!</string>
+    <string name="toast_merging">Mesclando documentos…</string>
+    <string name="toast_merging_compress">Mesclagem e compressão em andamento…</string>
+    <string name="toast_converting">Gerando PDF a partir de imagens…</string>
+    <string name="toast_saved_documents">Salvo: %1$s em Documentos!</string>
+    <string name="toast_completed_sharing">PDF pronto! Abrindo compartilhamento…</string>
+    <string name="toast_error">Erro: %1$s</string>
+    <string name="toast_share_error">Erro ao compartilhar: %1$s</string>
+    <string name="unknown_size">Tamanho desconhecido</string>
+    <string name="default_doc_name">Documento</string>
+</resources>

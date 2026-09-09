@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">मर्ज करें</string>
+    <string name="tab_image_to_pdf">चित्र से पीडीएफ</string>
+    <string name="tab_split_pdf">पीडीएफ विभाजित करें</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">पीडीएफ मर्ज करें</string>
+    <string name="title_image_to_pdf">चित्रों से पीडीएफ बनाएं</string>
+    <string name="title_split_pdf">पीडीएफ विभाजित करें</string>
+    <string name="subtitle_merge_pdf">स्थानीय रूप से एकाधिक पीडीएफ फ़ाइलों को मर्ज करें और तुरंत साझा करें।</string>
+    <string name="subtitle_image_to_pdf">फ़ोटो को पीडीएफ दस्तावेज़ में बदलें।</string>
+    <string name="subtitle_split_pdf">पृष्ठों की श्रेणी निकालें और एक नया पीडीएफ दस्तावेज़ बनाएं।</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ पीडीएफ जोड़ें</string>
+    <string name="add_images_btn">+ चित्र जोड़ें</string>
+    <string name="select_pdf_btn">+ पीडीएफ चुनें</string>
+    <string name="clear_list_btn">सूची साफ़ करें</string>
+    <string name="list_cleared">सूची साफ़ की गई</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">चयनित दस्तावेज़ (%1$d):</string>
+    <string name="selected_images_count">चयनित चित्र (%1$d):</string>
+    <string name="selected_split_file_count">विभाजित करने हेतु फ़ाइल (%1$d):</string>
+    <string name="reorder_hint">पुनः व्यवस्थित करने के लिए तीरों का उपयोग करें</string>
+    <string name="no_files_merge_placeholder">कोई फ़ाइल चयनित नहीं है।\nमर्ज करने के लिए कम से कम दो पीडीएफ जोड़ें।</string>
+    <string name="no_files_images_placeholder">कोई चित्र चयनित नहीं है।\nपीडीएफ उत्पन्न करने के लिए फोटो जोड़ें।</string>
+    <string name="no_files_split_placeholder">कोई पीडीएफ फ़ाइल चयनित नहीं है।\nविभाजित करने के लिए फ़ाइल लोड करें।</string>
+    <string name="no_files_selected">कोई फ़ाइल चयनित नहीं है।\nमर्ज करने के लिए कम से कम दो पीडीएफ जोड़ें।</string>
+    <string name="no_images_selected">कोई चित्र चयनित नहीं है।\nपीडीएफ उत्पन्न करने के लिए फोटो जोड़ें।</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">निष्कर्षण पृष्ठ श्रेणी</string>
+    <string name="split_load_hint">उपलब्ध पृष्ठ देखने के लिए पीडीएफ लोड करें</string>
+    <string name="split_total_pages">फ़ाइल के कुल पृष्ठ: %1$d</string>
+    <string name="split_from_label">से:</string>
+    <string name="split_to_label">तक:</string>
+    <string name="split_invalid_range">अमान्य पृष्ठ श्रेणी!</string>
+    <string name="toast_splitting">पृष्ठ निकाले जा रहे हैं…</string>
+    <string name="split_save_btn">विभाजित करें और सहेजें</string>
+    <string name="split_share_btn">विभाजित करें और साझा करें</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">ऊपर ले जाएं</string>
+    <string name="move_down">नीचे ले जाएं</string>
+    <string name="remove_file">फ़ाइल हटाएं</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">पीडीएफ संपीड़न</string>
+    <string name="compress_subtitle">अंतिम फ़ाइल का आकार कम करें</string>
+    <string name="compress_pdf_title">पीडीएफ संपीड़न</string>
+    <string name="compress_images_title">छवि गुणवत्ता</string>
+    <string name="compress_pdf_active_subtitle">छवि अनुकूलन सक्रिय (~50%)</string>
+    <string name="compress_images_active_subtitle">JPEG संपीड़न सक्रिय (~50% गुणवत्ता)</string>
+    <string name="compress_inactive_subtitle">अंतिम फ़ाइल का आकार कम करें</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">मर्ज करें और सहेजें</string>
+    <string name="merge_share_btn">मर्ज करें और साझा करें</string>
+    <string name="convert_save_btn">कनवर्ट करें और सहेजें</string>
+    <string name="convert_share_btn">कनवर्ट करें और साझा करें</string>
+    <string name="processing">प्रक्रिया जारी है…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">कार्य सफलतापूर्वक पूरा हुआ!</string>
+    <string name="share_again">पुनः साझा करें</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">100% ऑफ़लाइन और निजी पीडीएफ सुइट:\n\n• पीडीएफ मर्ज: पसंदीदा क्रम में दस्तावेज़ मिलाएं\n• इमेज टू पीडीएफ: तस्वीरों को पीडीएफ में बदलें\n• ऑफलाइन संपीड़न: फ़ाइल का आकार घटाएं\n• दस्तावेज़ों में सीधे सहेजें और तुरंत साझा करें</string>
+    <string name="dialog_ok">ठीक है</string>
+    <string name="info_title">जानकारी और गोपनीयता</string>
+    <string name="info_message">PDF Unifier Pro 100% ऑफ़लाइन और गोपनीयता-प्रथम एप्लिकेशन है। सभी प्रक्रियाएं स्थानीय रूप से आपके डिवाइस पर होती हैं। आपके दस्तावेज़ कभी किसी सर्वर पर अपलोड नहीं किए जाते हैं।\n\nसंस्करण: 1.0.0\nइंजन: PDFBox-Android</string>
+    <string name="info_privacy_button">गोपनीयता नीति</string>
+    <string name="info_close_button">बंद करें</string>
+    <string name="error_open_link">लिंक खोलने में असमर्थ।</string>
+
+    <!-- History Strings -->
+    <string name="history_title">पीडीएफ इतिहास</string>
+    <string name="history_empty">अभी तक कोई पीडीएफ नहीं बनाया गया।\nआपकी संसाधित फाइलें यहां दिखाई देंगी!</string>
+    <string name="history_open">खोलें</string>
+    <string name="history_share">शेयर करें</string>
+    <string name="history_delete">हटाएं</string>
+    <string name="history_type_merge">पीडीएफ मर्ज</string>
+    <string name="history_type_image_to_pdf">चित्र से पीडीएफ</string>
+    <string name="history_type_split">पीडीएफ विभाजन</string>
+    <string name="history_btn_desc">इतिहास</string>
+    <string name="history_file_not_found">फ़ाइल अब डिवाइस पर मौजूद नहीं है।</string>
+    <string name="history_item_deleted">आइटम इतिहास से हटा दिया गया।</string>
+    <string name="history_clear_all">सभी हटाएं</string>
+    <string name="no_pdf_viewer_app">पीडीएफ देखने के लिए कोई ऐप इंस्टॉल नहीं है।</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">दस्तावेज़ मर्ज किए जा रहे हैं…</string>
+    <string name="converting_toast">चित्रों से पीडीएफ बनाया जा रहा है…</string>
+    <string name="success_toast">पीडीएफ सफलतापूर्वक संसाधित किया गया!</string>
+    <string name="toast_merging">दस्तावेज़ मर्ज किए जा रहे हैं…</string>
+    <string name="toast_merging_compress">मर्ज और संपीड़न जारी है…</string>
+    <string name="toast_converting">चित्रों से पीडीएफ बनाया जा रहा है…</string>
+    <string name="toast_saved_documents">सहेजा गया: %1$s दस्तावेज़ फ़ोल्डर में!</string>
+    <string name="toast_completed_sharing">पीडीएफ तैयार! शेयर मेनू खुल रहा है…</string>
+    <string name="toast_error">त्रुटि: %1$s</string>
+    <string name="toast_share_error">साझाकरण त्रुटि: %1$s</string>
+    <string name="unknown_size">अज्ञात आकार</string>
+    <string name="default_doc_name">दस्तावेज़</string>
+</resources>

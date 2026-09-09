@@ -1,0 +1,5 @@
+<resources>
+    <string name="pdf_history_warning">Il PDF è stato salvato, ma la cronologia non è stata aggiornata correttamente. Puoi comunque aprirlo o condividerlo da qui.</string>
+    <string name="pdf_password_required">Questo PDF richiede una password di apertura. Il supporto ai documenti di origine protetti non è ancora disponibile.</string>
+    <string name="pdf_access_denied">Accesso al documento non disponibile. Selezionalo nuovamente.</string>
+</resources>

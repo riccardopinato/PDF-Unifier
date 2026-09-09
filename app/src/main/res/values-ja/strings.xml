@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">PDF結合</string>
+    <string name="tab_image_to_pdf">画像からPDF</string>
+    <string name="tab_split_pdf">PDF分割</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">PDFを結合</string>
+    <string name="title_image_to_pdf">画像からPDF</string>
+    <string name="title_split_pdf">PDFを分割</string>
+    <string name="subtitle_merge_pdf">端末内で安全に複数のPDFを結合し、すぐに共有できます。</string>
+    <string name="subtitle_image_to_pdf">写真や画像をPDFドキュメントに変換・レイアウトします。</string>
+    <string name="subtitle_split_pdf">ページ範囲を抽出して新しいPDFドキュメントを作成します。</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ PDFを追加</string>
+    <string name="add_images_btn">+ 画像を追加</string>
+    <string name="select_pdf_btn">+ PDFを選択</string>
+    <string name="clear_list_btn">リストをクリア</string>
+    <string name="list_cleared">リストをクリアしました</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">選択したドキュメント (%1$d):</string>
+    <string name="selected_images_count">選択した画像 (%1$d):</string>
+    <string name="selected_split_file_count">分割するファイル (%1$d):</string>
+    <string name="reorder_hint">矢印で順序を変更できます</string>
+    <string name="no_files_merge_placeholder">ファイルが選択されていません。\n結合するには、少なくとも2つのPDFを追加してください。</string>
+    <string name="no_files_images_placeholder">画像が選択されていません。\nPDFを生成するには写真を追加してください。</string>
+    <string name="no_files_split_placeholder">PDFが選択されていません。\n分割するファイルを読み込んでください。</string>
+    <string name="no_files_selected">ファイルが選択されていません。\n結合するには、少なくとも2つのPDFを追加してください。</string>
+    <string name="no_images_selected">画像が選択されていません。\nPDFを生成するには写真を追加してください。</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">抽出ページ範囲</string>
+    <string name="split_load_hint">PDFを読み込んで利用可能な総ページ数を確認</string>
+    <string name="split_total_pages">ファイルの総ページ数: %1$d</string>
+    <string name="split_from_label">開始:</string>
+    <string name="split_to_label">終了:</string>
+    <string name="split_invalid_range">無効なページ範囲です！</string>
+    <string name="toast_splitting">ページを抽出中…</string>
+    <string name="split_save_btn">分割して保存</string>
+    <string name="split_share_btn">分割して共有</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">上へ移動</string>
+    <string name="move_down">下へ移動</string>
+    <string name="remove_file">ファイルを削除</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">PDF圧縮</string>
+    <string name="compress_subtitle">最終ファイルのサイズを縮小します</string>
+    <string name="compress_pdf_title">PDF圧縮</string>
+    <string name="compress_images_title">画像品質</string>
+    <string name="compress_pdf_active_subtitle">画像最適化が有効 (~50%)</string>
+    <string name="compress_images_active_subtitle">JPEG圧縮有効（~50%品質でファイル軽量化）</string>
+    <string name="compress_inactive_subtitle">最終ファイルのサイズを縮小します</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">結合して保存</string>
+    <string name="merge_share_btn">結合して共有</string>
+    <string name="convert_save_btn">変換して保存</string>
+    <string name="convert_share_btn">変換して共有</string>
+    <string name="processing">処理中…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">処理が正常に完了しました！</string>
+    <string name="share_again">再共有</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">100% オフライン＆プライベートなPDFツール：\n\n• PDF結合：お好みの順序でPDFを結合\n• 画像からPDF：写真 (JPG, PNG, WebP) をPDFに変換\n• オフライン圧縮：埋め込み画像の容量を最適化\n• ドキュメントへの直接保存と高速共有</string>
+    <string name="dialog_ok">OK</string>
+    <string name="info_title">情報とプライバシー</string>
+    <string name="info_message">PDF Unifier Proは、プライバシーを重視した完全オフラインのアプリケーションです。すべての処理はお使いの端末内でローカルに実行され、外部サーバーに送信されることはありません。\n\nバージョン: 1.0.0\nエンジン: PDFBox-Android</string>
+    <string name="info_privacy_button">プライバシーポリシー</string>
+    <string name="info_close_button">閉じる</string>
+    <string name="error_open_link">リンクを開けませんでした。</string>
+
+    <!-- History Strings -->
+    <string name="history_title">PDF履歴</string>
+    <string name="history_empty">作成されたPDFはまだありません。\n処理されたファイルはここに表示されます！</string>
+    <string name="history_open">開く</string>
+    <string name="history_share">共有</string>
+    <string name="history_delete">削除</string>
+    <string name="history_type_merge">PDF結合</string>
+    <string name="history_type_image_to_pdf">画像をPDFに変換</string>
+    <string name="history_type_split">PDF分割</string>
+    <string name="history_btn_desc">履歴</string>
+    <string name="history_file_not_found">端末上にファイルが見つかりません。</string>
+    <string name="history_item_deleted">履歴から削除しました。</string>
+    <string name="history_clear_all">すべて消去</string>
+    <string name="no_pdf_viewer_app">PDFを表示するアプリが見つかりません。</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">ドキュメントを結合中…</string>
+    <string name="converting_toast">画像からPDFを生成中…</string>
+    <string name="success_toast">PDFの処理に成功しました！</string>
+    <string name="toast_merging">ドキュメントを結合中…</string>
+    <string name="toast_merging_compress">結合と圧縮を実行中…</string>
+    <string name="toast_converting">画像からPDFを生成中…</string>
+    <string name="toast_saved_documents">保存完了: %1$s (ドキュメント内)</string>
+    <string name="toast_completed_sharing">PDF準備完了！共有メニューを開きます…</string>
+    <string name="toast_error">エラー: %1$s</string>
+    <string name="toast_share_error">共有エラー: %1$s</string>
+    <string name="unknown_size">サイズ不明</string>
+    <string name="default_doc_name">ドキュメント</string>
+</resources>

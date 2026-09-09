@@ -1,0 +1,17 @@
+<resources>
+    <string name="search_label">Cerca nel testo</string>
+    <string name="search_action">Cerca</string>
+    <string name="search_close">Chiudi ricerca</string>
+    <string name="search_cancel">Annulla</string>
+    <string name="search_running">Ricerca nel PDF…</string>
+    <string name="search_summary">%1$d corrispondenze in %2$d pagine</string>
+    <string name="search_none">Nessuna corrispondenza nelle pagine esaminate.</string>
+    <string name="search_no_text">Nessun testo estraibile nelle pagine esaminate. Per le scansioni potrebbe servire il riconoscimento OCR.</string>
+    <string name="search_partial">Ricerca parziale: prime %1$d pagine su %2$d.</string>
+    <string name="search_previous">Precedente</string>
+    <string name="search_next">Successivo</string>
+    <string name="search_first">Apri primo risultato</string>
+    <string name="search_selected">Risultato a pagina %1$d: %2$d corrispondenze</string>
+    <string name="search_error">Ricerca non riuscita. Il PDF potrebbe essere indisponibile, danneggiato o avere restrizioni.</string>
+    <string name="search_too_complex">Una pagina è troppo complessa per questa ricerca. Prova ad aprire il PDF in un’altra app.</string>
+</resources>

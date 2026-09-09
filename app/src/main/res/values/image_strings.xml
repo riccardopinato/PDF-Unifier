@@ -1,0 +1,7 @@
+<resources>
+    <string name="pdf_image_too_large">Image too large. Use an image under 50 MB.</string>
+    <string name="pdf_image_invalid">Unable to decode this image. Use a still JPEG, PNG or WebP image.</string>
+    <string name="pdf_image_item_failed">Image %1$d: %2$s</string>
+    <string name="pdf_image_high_quality">High quality: resized when needed, up to 3200 px per side.</string>
+    <string name="pdf_image_compact">Compact: up to 2200 px per side; JPEG quality 80 for opaque images. Transparency preserved.</string>
+</resources>

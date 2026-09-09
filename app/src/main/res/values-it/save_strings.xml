@@ -1,0 +1,5 @@
+<resources>
+    <string name="pdf_save_as">Salva una copia con nome…</string>
+    <string name="pdf_save_success">Copia salvata nella destinazione scelta. Il documento di origine è stato mantenuto.</string>
+    <string name="pdf_save_failed">Impossibile completare la copia. Il documento di origine resta disponibile. Se il provider ha impedito la pulizia, elimina il file incompleto nella destinazione.</string>
+</resources>

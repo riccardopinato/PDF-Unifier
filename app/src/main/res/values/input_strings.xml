@@ -1,0 +1,5 @@
+<resources>
+    <string name="pdf_input_unreadable">Unable to read the selected document.</string>
+    <string name="pdf_input_empty">The selected document is empty.</string>
+    <string name="pdf_input_limit">Select at most 100 files per operation.</string>
+</resources>

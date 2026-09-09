@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">دمج PDF</string>
+    <string name="tab_image_to_pdf">صور إلى PDF</string>
+    <string name="tab_split_pdf">تقسيم PDF</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">دمج ملفات PDF</string>
+    <string name="title_image_to_pdf">صور إلى PDF</string>
+    <string name="title_split_pdf">تقسيم ملف PDF</string>
+    <string name="subtitle_merge_pdf">ادمج عدة ملفات PDF محلياً وشاركها على الفور.</string>
+    <string name="subtitle_image_to_pdf">حوّل ورتب صورك في مستند PDF.</string>
+    <string name="subtitle_split_pdf">استخرج نطاق صفحات وأنشئ مستند PDF جديد.</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ إضافة PDF</string>
+    <string name="add_images_btn">+ إضافة صور</string>
+    <string name="select_pdf_btn">+ اختيار PDF</string>
+    <string name="clear_list_btn">مسح القائمة</string>
+    <string name="list_cleared">تم مسح القائمة</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">المستندات المحددة (%1$d):</string>
+    <string name="selected_images_count">الصور المحددة (%1$d):</string>
+    <string name="selected_split_file_count">الملف للتقسيم (%1$d):</string>
+    <string name="reorder_hint">استخدم الأسهم لإعادة الترتيب</string>
+    <string name="no_files_merge_placeholder">لم يتم تحديد أي ملفات.\nأضف ملفين PDF على الأقل لدمجهما.</string>
+    <string name="no_files_images_placeholder">لم يتم تحديد أي صور.\nأضف صورًا لإنشاء ملف PDF.</string>
+    <string name="no_files_split_placeholder">لم يتم تحديد ملف PDF.\nقم بتحميل الملف المراد تقسيمه.</string>
+    <string name="no_files_selected">لم يتم تحديد أي ملفات.\nأضف ملفين PDF على الأقل لدمجهما.</string>
+    <string name="no_images_selected">لم يتم تحديد أي صور.\nأضف صورًا لإنشاء ملف PDF.</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">نطاق الاستخراج</string>
+    <string name="split_load_hint">قم بتحميل PDF لعرض الصفحات المتاحة</string>
+    <string name="split_total_pages">إجمالي صفحات الملف: %1$d</string>
+    <string name="split_from_label">من:</string>
+    <string name="split_to_label">إلى:</string>
+    <string name="split_invalid_range">نطاق صفحات غير صالح!</string>
+    <string name="toast_splitting">جاري استخراج الصفحات…</string>
+    <string name="split_save_btn">تقسيم وحفظ</string>
+    <string name="split_share_btn">تقسيم ومشاركة</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">نقل لأعلى</string>
+    <string name="move_down">نقل لأسفل</string>
+    <string name="remove_file">حذف الملف</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">ضغط PDF</string>
+    <string name="compress_subtitle">تقليل حجم الملف النهائي</string>
+    <string name="compress_pdf_title">ضغط PDF</string>
+    <string name="compress_images_title">جودة الصور</string>
+    <string name="compress_pdf_active_subtitle">تحسين الصور مفعل (~50%)</string>
+    <string name="compress_images_active_subtitle">ضغط JPEG مفعل (~50% لتقليل الحجم)</string>
+    <string name="compress_inactive_subtitle">تقليل حجم الملف النهائي</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">دمج وحفظ</string>
+    <string name="merge_share_btn">دمج ومشاركة</string>
+    <string name="convert_save_btn">تحويل وحفظ</string>
+    <string name="convert_share_btn">تحويل ومشاركة</string>
+    <string name="processing">جاري المعالجة…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">تمت العملية بنجاح!</string>
+    <string name="share_again">مشاركة مرة أخرى</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">حزمة أدوات PDF خاصة ومحلية 100%:\n\n• دمج PDF: اجمع عدة مستندات بالترتيب المفضل\n• صور إلى PDF: حوّل الصور (JPG, PNG, WebP) إلى مستند\n• ضغط بدون إنترنت: تحسين الصور لتقليل الحجم\n• حفظ فوري في المستندات ومشاركة سريعة</string>
+    <string name="dialog_ok">حسناً</string>
+    <string name="info_title">المعلومات والخصوصية</string>
+    <string name="info_message">تطبيق PDF Unifier Pro يعمل بدون إنترنت بنسبة 100% ومصمم لحماية خصوصيتك. تتم جميع المعالجات محلياً على جهازك، ولا يتم رفع مستنداتك إلى أي خادم أبداً.\n\nالإصدار: 1.0.0\nالمحرك: PDFBox-Android</string>
+    <string name="info_privacy_button">سياسة الخصوصية</string>
+    <string name="info_close_button">إغلاق</string>
+    <string name="error_open_link">تعذر فتح الرابط.</string>
+
+    <!-- History Strings -->
+    <string name="history_title">سجل ملفات PDF</string>
+    <string name="history_empty">لم تقم بإنشاء أي ملفات PDF بعد.\nستظهر الملفات المعالجة هنا!</string>
+    <string name="history_open">فتح</string>
+    <string name="history_share">مشاركة</string>
+    <string name="history_delete">حذف</string>
+    <string name="history_type_merge">دمج PDF</string>
+    <string name="history_type_image_to_pdf">صور إلى PDF</string>
+    <string name="history_type_split">تقسيم PDF</string>
+    <string name="history_btn_desc">السجل</string>
+    <string name="history_file_not_found">الملف لم يعد موجوداً على الجهاز.</string>
+    <string name="history_item_deleted">تمت إزالة العنصر من السجل.</string>
+    <string name="history_clear_all">مسح الكل</string>
+    <string name="no_pdf_viewer_app">لا يوجد تطبيق مثبت لعرض ملفات PDF.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">جاري دمج المستندات…</string>
+    <string name="converting_toast">جاري إنشاء ملف PDF من الصور…</string>
+    <string name="success_toast">تمت معالجة ملف PDF بنجاح!</string>
+    <string name="toast_merging">جاري دمج المستندات…</string>
+    <string name="toast_merging_compress">جاري الدمج والضغط…</string>
+    <string name="toast_converting">جاري إنشاء ملف PDF من الصور…</string>
+    <string name="toast_saved_documents">تم الحفظ: %1$s في مجلد المستندات!</string>
+    <string name="toast_completed_sharing">الملف جاهز! جاري فتح خيارات المشاركة…</string>
+    <string name="toast_error">خطأ: %1$s</string>
+    <string name="toast_share_error">خطأ في المشاركة: %1$s</string>
+    <string name="unknown_size">حجم غير معروف</string>
+    <string name="default_doc_name">مستند</string>
+</resources>

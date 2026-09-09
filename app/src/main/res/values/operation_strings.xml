@@ -1,0 +1,5 @@
+<resources>
+    <string name="pdf_history_warning">The PDF was saved, but history could not be updated correctly. You can still open or share it here.</string>
+    <string name="pdf_password_required">This PDF requires a password to open. Opening protected input PDFs is not supported yet.</string>
+    <string name="pdf_access_denied">Access to this document is unavailable. Select it again.</string>
+</resources>

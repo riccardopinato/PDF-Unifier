@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">Unisci PDF</string>
+    <string name="tab_image_to_pdf">Immagini a PDF</string>
+    <string name="tab_split_pdf">Dividi PDF</string>
+    <string name="tab_tools_pdf">Strumenti</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">Unisci i tuoi PDF</string>
+    <string name="title_image_to_pdf">Immagini a PDF</string>
+    <string name="title_split_pdf">Dividi il tuo PDF</string>
+    <string name="title_tools_pdf">Strumenti &amp; Utility PDF</string>
+    <string name="subtitle_merge_pdf">Unisci più file PDF localmente e condividili all\'istante.</string>
+    <string name="subtitle_image_to_pdf">Converti e impagina le tue foto in un documento PDF.</string>
+    <string name="subtitle_split_pdf">Estrai un intervallo di pagine e crea un nuovo documento PDF.</string>
+    <string name="subtitle_tools_pdf">Proteggi con password, ruota le pagine ed estrai il testo 100% offline.</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ Aggiungi PDF</string>
+    <string name="add_images_btn">+ Aggiungi Immagini</string>
+    <string name="select_pdf_btn">+ Seleziona PDF</string>
+    <string name="select_tool_pdf_btn">+ Scegli PDF per Strumenti</string>
+    <string name="clear_list_btn">Svuota Lista</string>
+    <string name="list_cleared">Lista svuotata</string>
+
+    <!-- Lock PDF Strings -->
+    <string name="lock_pdf_title">Proteggi PDF</string>
+    <string name="lock_pdf_prompt">Inserisci una password per cifrare questo documento PDF. Sarà necessaria per aprirlo in futuro.</string>
+    <string name="password_hint">Password</string>
+    <string name="password_empty_error">La password non può essere vuota!</string>
+    <string name="lock_pdf_success">PDF cifrato e protetto salvato con successo!</string>
+    <string name="lock_pdf_btn">Cifra &amp; Proteggi</string>
+    <string name="lock_pdf_action">Cifra PDF</string>
+
+    <!-- Rotate PDF Strings -->
+    <string name="rotate_pdf_title">Ruota Pagine</string>
+    <string name="rotate_pdf_subtitle">Ruota tutte le pagine di 90°, 180° o 270°</string>
+    <string name="rotate_angle_label">Angolo di rotazione:</string>
+    <string name="rotate_90">90° Senso Orario</string>
+    <string name="rotate_180">180° Capovolto</string>
+    <string name="rotate_270">270° (90° Antiorario)</string>
+    <string name="rotate_save_btn">Ruota e Salva</string>
+    <string name="rotate_share_btn">Ruota e Condividi</string>
+    <string name="toast_rotating">Rotazione delle pagine in corso…</string>
+    <string name="rotate_success">Pagine del PDF ruotate con successo!</string>
+
+    <!-- Extract Text Strings -->
+    <string name="extract_text_title">Estrai Testo</string>
+    <string name="extract_text_subtitle">Estrai il testo leggibile dal PDF e copialo negli appunti</string>
+    <string name="extract_text_btn">Estrai Testo</string>
+    <string name="copy_text_btn">Copia negli Appunti</string>
+    <string name="text_copied_toast">Testo copiato negli appunti!</string>
+    <string name="no_text_found">Nessun testo leggibile trovato in questo PDF (potrebbe essere una scansione immagine).</string>
+    <string name="extracting_text_toast">Estrazione del testo dal PDF in corso…</string>
+    <string name="extracted_text_dialog_title">Testo Estratto dal PDF</string>
+    <string name="history_extract_text">Estrai Testo</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">Documenti selezionati (%1$d):</string>
+    <string name="selected_images_count">Immagini selezionate (%1$d):</string>
+    <string name="selected_split_file_count">File da dividere (%1$d):</string>
+    <string name="reorder_hint">Usa le frecce per riordinare</string>
+    <string name="no_files_merge_placeholder">Nessun file selezionato.\nAggiungi almeno due PDF per unirli.</string>
+    <string name="no_files_images_placeholder">Nessuna immagine selezionata.\nAggiungi le foto per generare il PDF.</string>
+    <string name="no_files_split_placeholder">Nessun PDF selezionato.\nCarica il file da dividere.</string>
+    <string name="no_files_selected">Nessun file selezionato.\nAggiungi almeno due PDF per unirli.</string>
+    <string name="no_images_selected">Nessuna immagine selezionata.\nAggiungi le foto per generare il PDF.</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">Intervallo di estrazione</string>
+    <string name="split_load_hint">Carica un PDF per vedere le pagine disponibili</string>
+    <string name="split_total_pages">Pagine totali del file: %1$d</string>
+    <string name="split_from_label">Da:</string>
+    <string name="split_to_label">A:</string>
+    <string name="split_invalid_range">Intervallo pagine non valido!</string>
+    <string name="toast_splitting">Estrazione delle pagine in corso…</string>
+    <string name="split_save_btn">Dividi e Salva</string>
+    <string name="split_share_btn">Dividi e Condividi</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">Sposta su</string>
+    <string name="move_down">Sposta giù</string>
+    <string name="remove_file">Rimuovi file</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">Compressione PDF</string>
+    <string name="compress_subtitle">Riduci le dimensioni del file finale</string>
+    <string name="compress_pdf_title">Compressione PDF</string>
+    <string name="compress_images_title">Qualità Immagini</string>
+    <string name="compress_pdf_active_subtitle">Ottimizzazione immagini attiva (~50%)</string>
+    <string name="compress_images_active_subtitle">Compressione JPEG attiva (~50% qualità per file leggero)</string>
+    <string name="compress_inactive_subtitle">Riduci le dimensioni del file finale</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">Unisci e Salva</string>
+    <string name="merge_share_btn">Unisci e Condividi</string>
+    <string name="convert_save_btn">Converti e Salva</string>
+    <string name="convert_share_btn">Converti e Condividi</string>
+    <string name="processing">Elaborazione…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">Operazione completata con successo!</string>
+    <string name="share_again">Condividi di nuovo</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">Suite PDF 100% offline e privata:\n\n• Unisci PDF: combina più documenti PDF nell\'ordine desiderato\n• Immagini a PDF: converti ed impagina foto (JPG, PNG, WebP) in PDF\n• Compressione offline: riduci il peso ottimizzando le immagini\n• Salvataggio nei Documenti e condivisione istantanea</string>
+    <string name="dialog_ok">OK</string>
+    <string name="info_title">Info &amp; Privacy</string>
+    <string name="info_message">PDF Unifier Pro è un\'applicazione 100% offline progettata per tutelare la tua privacy. Tutte le elaborazioni avvengono esclusivamente sul tuo dispositivo. I tuoi documenti non vengono mai caricati su server esterni, impedendo collezioni di dati indesiderate.\n\nVersione: 1.0.0\nMotore: PDFBox-Android</string>
+    <string name="info_privacy_button">Privacy Policy</string>
+    <string name="info_close_button">Chiudi</string>
+    <string name="error_open_link">Impossibile aprire il link.</string>
+
+    <!-- History Strings -->
+    <string name="history_title">Cronologia PDF</string>
+    <string name="history_empty">Non hai ancora creato alcun PDF.\nI file elaborati appariranno qui!</string>
+    <string name="history_open">Apri</string>
+    <string name="history_share">Condividi</string>
+    <string name="history_delete">Elimina</string>
+    <string name="history_type_merge">Unione PDF</string>
+    <string name="history_type_image_to_pdf">Immagini a PDF</string>
+    <string name="history_type_split">Divisione PDF</string>
+    <string name="history_type_lock">Protezione PDF</string>
+    <string name="history_type_rotate">Rotazione PDF</string>
+    <string name="history_btn_desc">Cronologia</string>
+    <string name="history_file_not_found">Il file non esiste più sul dispositivo.</string>
+    <string name="history_item_deleted">Elemento rimosso dalla cronologia.</string>
+    <string name="history_clear_all">Cancella tutto</string>
+    <string name="no_pdf_viewer_app">Nessuna app installata per visualizzare il PDF.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">Fusione dei documenti in corso…</string>
+    <string name="converting_toast">Generazione PDF da immagini…</string>
+    <string name="success_toast">PDF elaborato con successo!</string>
+    <string name="toast_merging">Fusione dei documenti in corso…</string>
+    <string name="toast_merging_compress">Unione e compressione in corso…</string>
+    <string name="toast_converting">Generazione PDF da immagini…</string>
+    <string name="toast_saved_documents">Salvato: %1$s nei Documenti!</string>
+    <string name="toast_completed_sharing">PDF pronto! Apertura condivisione…</string>
+    <string name="toast_error">Errore: %1$s</string>
+    <string name="toast_share_error">Errore di condivisione: %1$s</string>
+    <string name="unknown_size">Dimensione sconosciuta</string>
+    <string name="default_doc_name">Documento</string>
+</resources>

@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">Merge PDF</string>
+    <string name="tab_image_to_pdf">Images to PDF</string>
+    <string name="tab_split_pdf">Split PDF</string>
+    <string name="tab_tools_pdf">Tools</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">Merge your PDFs</string>
+    <string name="title_image_to_pdf">Images to PDF</string>
+    <string name="title_split_pdf">Split your PDF</string>
+    <string name="title_tools_pdf">PDF Tools &amp; Utilities</string>
+    <string name="subtitle_merge_pdf">Merge multiple PDF files locally and share them instantly.</string>
+    <string name="subtitle_image_to_pdf">Convert and format your photos into a PDF document.</string>
+    <string name="subtitle_split_pdf">Extract a page range and create a new PDF document.</string>
+    <string name="subtitle_tools_pdf">Protect with password, rotate pages, and extract text 100% offline.</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ Add PDF</string>
+    <string name="add_images_btn">+ Add Images</string>
+    <string name="select_pdf_btn">+ Select PDF</string>
+    <string name="select_tool_pdf_btn">+ Choose PDF for Tools</string>
+    <string name="clear_list_btn">Clear List</string>
+    <string name="list_cleared">List cleared</string>
+
+    <!-- Lock PDF Strings -->
+    <string name="lock_pdf_title">Protect PDF</string>
+    <string name="lock_pdf_prompt">Enter a password to encrypt this PDF document. You will need this password to open the file.</string>
+    <string name="password_hint">Password</string>
+    <string name="password_empty_error">Password cannot be empty!</string>
+    <string name="lock_pdf_success">PDF encrypted and protected successfully!</string>
+    <string name="lock_pdf_btn">Lock &amp; Protect</string>
+    <string name="lock_pdf_action">Encrypt PDF</string>
+
+    <!-- Rotate PDF Strings -->
+    <string name="rotate_pdf_title">Rotate Pages</string>
+    <string name="rotate_pdf_subtitle">Rotate all pages by 90°, 180°, or 270°</string>
+    <string name="rotate_angle_label">Rotation Angle:</string>
+    <string name="rotate_90">90° Clockwise</string>
+    <string name="rotate_180">180° Flip</string>
+    <string name="rotate_270">270° (90° CCW)</string>
+    <string name="rotate_save_btn">Rotate &amp; Save</string>
+    <string name="rotate_share_btn">Rotate &amp; Share</string>
+    <string name="toast_rotating">Rotating PDF pages in progress…</string>
+    <string name="rotate_success">PDF pages rotated successfully!</string>
+
+    <!-- Extract Text Strings -->
+    <string name="extract_text_title">Extract Text</string>
+    <string name="extract_text_subtitle">Extract readable text from PDF and copy to clipboard</string>
+    <string name="extract_text_btn">Extract Text</string>
+    <string name="copy_text_btn">Copy to Clipboard</string>
+    <string name="text_copied_toast">Text copied to clipboard!</string>
+    <string name="no_text_found">No readable text found in this PDF (it may contain scanned image pages).</string>
+    <string name="extracting_text_toast">Extracting text from PDF…</string>
+    <string name="extracted_text_dialog_title">Extracted PDF Text</string>
+    <string name="history_extract_text">Extract Text</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">Selected documents (%1$d):</string>
+    <string name="selected_images_count">Selected images (%1$d):</string>
+    <string name="selected_split_file_count">File to split (%1$d):</string>
+    <string name="reorder_hint">Use arrows to reorder</string>
+    <string name="no_files_merge_placeholder">No files selected.\nAdd at least two PDFs to merge them.</string>
+    <string name="no_files_images_placeholder">No images selected.\nAdd photos to generate the PDF.</string>
+    <string name="no_files_split_placeholder">No PDF selected.\nLoad the file you wish to split.</string>
+    <string name="no_files_selected">No files selected.\nAdd at least two PDFs to merge them.</string>
+    <string name="no_images_selected">No images selected.\nAdd photos to generate the PDF.</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">Extraction Range</string>
+    <string name="split_load_hint">Load a PDF to view available pages</string>
+    <string name="split_total_pages">Total document pages: %1$d</string>
+    <string name="split_from_label">From:</string>
+    <string name="split_to_label">To:</string>
+    <string name="split_invalid_range">Invalid page range selected!</string>
+    <string name="toast_splitting">Extracting pages in progress…</string>
+    <string name="split_save_btn">Split &amp; Save</string>
+    <string name="split_share_btn">Split &amp; Share</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="remove_file">Remove file</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">PDF Compression</string>
+    <string name="compress_subtitle">Reduce the size of the final file</string>
+    <string name="compress_pdf_title">PDF Compression</string>
+    <string name="compress_images_title">Image Quality</string>
+    <string name="compress_pdf_active_subtitle">Image optimization active (~50%)</string>
+    <string name="compress_images_active_subtitle">JPEG compression active (~50% quality for lightweight file)</string>
+    <string name="compress_inactive_subtitle">Reduce the size of the final file</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">Merge &amp; Save</string>
+    <string name="merge_share_btn">Merge &amp; Share</string>
+    <string name="convert_save_btn">Convert &amp; Save</string>
+    <string name="convert_share_btn">Convert &amp; Share</string>
+    <string name="processing">Processing…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">Operation completed successfully!</string>
+    <string name="share_again">Share again</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">100% offline and private PDF suite:\n\n• Merge PDF: combine multiple PDF documents in your chosen order\n• Images to PDF: convert photos (JPG, PNG, WebP) into PDF\n• Offline compression: optimize embedded images to reduce file size\n• Instant saving to Documents and direct sharing</string>
+    <string name="dialog_ok">OK</string>
+    <string name="info_title">Info &amp; Privacy</string>
+    <string name="info_message">PDF Unifier Pro is a 100% offline and privacy-first application. All processing is done locally on your device. Your documents are never uploaded to any server, preventing unauthorized data collection.\n\nVersion: 1.0.0\nEngine: PDFBox-Android</string>
+    <string name="info_privacy_button">Privacy Policy</string>
+    <string name="info_close_button">Close</string>
+    <string name="error_open_link">Unable to open link.</string>
+
+    <!-- History Strings -->
+    <string name="history_title">PDF History</string>
+    <string name="history_empty">No PDFs created yet.\nYour processed files will appear here!</string>
+    <string name="history_open">Open</string>
+    <string name="history_share">Share</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_type_merge">Merge PDF</string>
+    <string name="history_type_image_to_pdf">Images to PDF</string>
+    <string name="history_type_split">Split PDF</string>
+    <string name="history_type_lock">Protect PDF</string>
+    <string name="history_type_rotate">Rotate PDF</string>
+    <string name="history_btn_desc">History</string>
+    <string name="history_file_not_found">The file no longer exists on the device.</string>
+    <string name="history_item_deleted">Item removed from history.</string>
+    <string name="history_clear_all">Clear all</string>
+    <string name="no_pdf_viewer_app">No app installed to view PDF.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">Merging documents…</string>
+    <string name="converting_toast">Generating PDF from images…</string>
+    <string name="success_toast">PDF processed successfully!</string>
+    <string name="toast_merging">Merging documents…</string>
+    <string name="toast_merging_compress">Merging and compressing in progress…</string>
+    <string name="toast_converting">Generating PDF from images…</string>
+    <string name="toast_saved_documents">Saved: %1$s in Documents!</string>
+    <string name="toast_completed_sharing">PDF ready! Opening share dialog…</string>
+    <string name="toast_error">Error: %1$s</string>
+    <string name="toast_share_error">Sharing error: %1$s</string>
+    <string name="unknown_size">Unknown size</string>
+    <string name="default_doc_name">Document</string>
+</resources>

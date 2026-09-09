@@ -1,0 +1,7 @@
+<resources>
+    <string name="pdf_compress_action">Compress PDF</string>
+    <string name="pdf_compress_explanation" formatted="false">Optimizes eligible opaque RGB images using JPEG quality 85. Image detail may decrease. Keeps the original bytes if savings are under 2%.</string>
+    <string name="pdf_compress_report">%1$s → %2$s. Images optimized: %3$d.</string>
+    <string name="pdf_compress_unchanged">No suitable reduction: original bytes retained. The document may already be optimized, contain protected images, signatures, encryption or forms.</string>
+    <string name="pdf_compress_checkbox">Conservative image optimization; reduction is not guaranteed.</string>
+</resources>

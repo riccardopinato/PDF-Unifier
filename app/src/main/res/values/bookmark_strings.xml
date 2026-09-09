@@ -1,0 +1,11 @@
+<resources>
+    <string name="bookmark_title">Bookmarks</string>
+    <string name="bookmark_local">Saved in this app for this document. The PDF is unchanged.</string>
+    <string name="bookmark_add_current">Bookmark page %1$d</string>
+    <string name="bookmark_remove_current">Remove bookmark from page %1$d</string>
+    <string name="bookmark_delete_page">Remove bookmark from page %1$d</string>
+    <string name="bookmark_empty">No bookmarks yet.</string>
+    <string name="bookmark_error">Unable to read or save bookmarks. Reload to check the saved state.</string>
+    <string name="bookmark_limit">You can save up to 500 bookmarks per document.</string>
+    <string name="bookmark_reload">Reload bookmarks</string>
+</resources>

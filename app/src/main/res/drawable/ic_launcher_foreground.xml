@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Back PDF Sheet -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M34,26 L62,26 L74,38 L74,78 C74,80.2 72.2,82 70,82 L34,82 C31.8,82 30,80.2 30,78 L30,30 C30,27.8 31.8,26 34,26 Z" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M62,26 L74,38 L62,38 Z" />
+    
+    <!-- Front PDF Sheet with Red/Orange Accent -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,34 L68,34 L80,46 L80,86 C80,88.2 78.2,90 76,90 L40,90 C37.8,90 36,88.2 36,86 L36,38 C36,35.8 37.8,34 40,34 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M68,34 L80,46 L68,46 Z" />
+    
+    <!-- PDF Badge and Merge Symbol -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M42,50 L56,50 C58.2,50 60,51.8 60,54 C60,56.2 58.2,58 56,58 L42,58 Z" />
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M42,62 L72,62 C73.1,62 74,62.9 74,64 C74,65.1 73.1,66 72,66 L42,66 C40.9,66 40,65.1 40,64 C40,62.9 40.9,62 42,62 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M42,70 L64,70 C65.1,70 66,70.9 66,72 C66,73.1 65.1,74 64,74 L42,74 C40.9,74 40,73.1 40,72 C40,70.9 40.9,70 42,70 Z" />
+
+    <!-- Plus / Merge circle badge -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M30,48 C30,42.48 34.48,38 40,38 C45.52,38 50,42.48 50,48 C50,53.52 45.52,58 40,58 C34.48,58 30,53.52 30,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,43 L41,43 L41,47 L45,47 L45,49 L41,49 L41,53 L39,53 L39,49 L35,49 L35,47 L39,47 Z" />
+</vector>

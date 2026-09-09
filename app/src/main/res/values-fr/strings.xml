@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">Fusionner PDF</string>
+    <string name="tab_image_to_pdf">Images en PDF</string>
+    <string name="tab_split_pdf">Diviser PDF</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">Fusionnez vos PDF</string>
+    <string name="title_image_to_pdf">Images en PDF</string>
+    <string name="title_split_pdf">Divisez votre PDF</string>
+    <string name="subtitle_merge_pdf">Fusionnez plusieurs fichiers PDF localement et partagez-les instantanément.</string>
+    <string name="subtitle_image_to_pdf">Convertissez et mettez en page vos photos dans un document PDF.</string>
+    <string name="subtitle_split_pdf">Extrayez une plage de pages et créez un nouveau document PDF.</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ Ajouter PDF</string>
+    <string name="add_images_btn">+ Ajouter des Images</string>
+    <string name="select_pdf_btn">+ Sélectionner PDF</string>
+    <string name="clear_list_btn">Vider la Liste</string>
+    <string name="list_cleared">Liste vidée</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">Documents sélectionnés (%1$d) :</string>
+    <string name="selected_images_count">Images sélectionnées (%1$d) :</string>
+    <string name="selected_split_file_count">Fichier à diviser (%1$d) :</string>
+    <string name="reorder_hint">Utilisez les flèches pour réorganiser</string>
+    <string name="no_files_merge_placeholder">Aucun fichier sélectionné.\nAjoutez au moins deux PDF pour les fusionner.</string>
+    <string name="no_files_images_placeholder">Aucune image sélectionnée.\nAjoutez des photos pour générer le PDF.</string>
+    <string name="no_files_split_placeholder">Aucun PDF sélectionné.\nChargez le fichier à diviser.</string>
+    <string name="no_files_selected">Aucun fichier sélectionné.\nAjoutez au moins deux PDF pour les fusionner.</string>
+    <string name="no_images_selected">Aucune image sélectionnée.\nAjoutez des photos pour générer le PDF.</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">Plage d\'extraction</string>
+    <string name="split_load_hint">Chargez un PDF pour voir les pages disponibles</string>
+    <string name="split_total_pages">Pages totales du fichier : %1$d</string>
+    <string name="split_from_label">De :</string>
+    <string name="split_to_label">À :</string>
+    <string name="split_invalid_range">Plage de pages invalide !</string>
+    <string name="toast_splitting">Extraction des pages en cours…</string>
+    <string name="split_save_btn">Diviser et Enregistrer</string>
+    <string name="split_share_btn">Diviser et Partager</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">Monter</string>
+    <string name="move_down">Descendre</string>
+    <string name="remove_file">Supprimer le fichier</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">Compression PDF</string>
+    <string name="compress_subtitle">Réduire la taille du fichier final</string>
+    <string name="compress_pdf_title">Compression PDF</string>
+    <string name="compress_images_title">Qualité des Images</string>
+    <string name="compress_pdf_active_subtitle">Optimisation des images active (~50%)</string>
+    <string name="compress_images_active_subtitle">Compression JPEG active (~50% qualité pour fichier léger)</string>
+    <string name="compress_inactive_subtitle">Réduire la taille du fichier final</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">Fusionner et Enregistrer</string>
+    <string name="merge_share_btn">Fusionner et Partager</string>
+    <string name="convert_save_btn">Convertir et Enregistrer</string>
+    <string name="convert_share_btn">Convertir et Partager</string>
+    <string name="processing">Traitement en cours…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">Opération terminée avec succès !</string>
+    <string name="share_again">Partager à nouveau</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">Suite PDF 100% hors ligne et privée :\n\n• Fusionner PDF : combinez plusieurs documents PDF dans l\'ordre souhaité\n• Images en PDF : convertissez des photos (JPG, PNG, WebP) en PDF\n• Compression hors ligne : optimisez les images intégrées\n• Enregistrement dans Documents et partage direct</string>
+    <string name="dialog_ok">OK</string>
+    <string name="info_title">Info &amp; Confidentialité</string>
+    <string name="info_message">PDF Unifier Pro est une application 100% hors ligne conçue pour protéger votre vie privée. Tous les traitements sont effectués localement sur votre appareil. Vos documents ne sont jamais envoyés vers des serveurs externes.\n\nVersion : 1.0.0\nMoteur : PDFBox-Android</string>
+    <string name="info_privacy_button">Politique de confidentialité</string>
+    <string name="info_close_button">Fermer</string>
+    <string name="error_open_link">Impossible d\'ouvrir le lien.</string>
+
+    <!-- History Strings -->
+    <string name="history_title">Historique PDF</string>
+    <string name="history_empty">Aucun PDF créé pour le moment.\nVos fichiers traités apparaîtront ici !</string>
+    <string name="history_open">Ouvrir</string>
+    <string name="history_share">Partager</string>
+    <string name="history_delete">Supprimer</string>
+    <string name="history_type_merge">Fusionner PDF</string>
+    <string name="history_type_image_to_pdf">Images en PDF</string>
+    <string name="history_type_split">Diviser PDF</string>
+    <string name="history_btn_desc">Historique</string>
+    <string name="history_file_not_found">Le fichier n\'existe plus sur l\'appareil.</string>
+    <string name="history_item_deleted">Élément supprimé de l\'historique.</string>
+    <string name="history_clear_all">Tout effacer</string>
+    <string name="no_pdf_viewer_app">Aucune application installée pour afficher les PDF.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">Fusion des documents en cours…</string>
+    <string name="converting_toast">Génération du PDF à partir d\'images…</string>
+    <string name="success_toast">PDF traité avec succès !</string>
+    <string name="toast_merging">Fusion des documents en cours…</string>
+    <string name="toast_merging_compress">Fusion et compression en cours…</string>
+    <string name="toast_converting">Génération du PDF à partir d\'images…</string>
+    <string name="toast_saved_documents">Enregistré : %1$s dans Documents !</string>
+    <string name="toast_completed_sharing">PDF prêt ! Ouverture du partage…</string>
+    <string name="toast_error">Erreur : %1$s</string>
+    <string name="toast_share_error">Erreur de partage : %1$s</string>
+    <string name="unknown_size">Taille inconnue</string>
+    <string name="default_doc_name">Document</string>
+</resources>

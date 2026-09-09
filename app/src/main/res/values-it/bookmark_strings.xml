@@ -1,0 +1,11 @@
+<resources>
+    <string name="bookmark_title">Segnalibri</string>
+    <string name="bookmark_local">Salvati in questa app per questo documento. Il PDF resta invariato.</string>
+    <string name="bookmark_add_current">Salva pagina %1$d nei segnalibri</string>
+    <string name="bookmark_remove_current">Rimuovi segnalibro da pagina %1$d</string>
+    <string name="bookmark_delete_page">Rimuovi segnalibro da pagina %1$d</string>
+    <string name="bookmark_empty">Nessun segnalibro salvato.</string>
+    <string name="bookmark_error">Impossibile leggere o salvare i segnalibri. Ricarica per verificare lo stato salvato.</string>
+    <string name="bookmark_limit">Puoi salvare fino a 500 segnalibri per documento.</string>
+    <string name="bookmark_reload">Ricarica segnalibri</string>
+</resources>

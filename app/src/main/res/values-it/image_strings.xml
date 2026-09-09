@@ -1,0 +1,7 @@
+<resources>
+    <string name="pdf_image_too_large">Immagine troppo grande. Usa un’immagine sotto i 50 MB.</string>
+    <string name="pdf_image_invalid">Impossibile decodificare l’immagine. Usa un’immagine statica JPEG, PNG o WebP.</string>
+    <string name="pdf_image_item_failed">Immagine %1$d: %2$s</string>
+    <string name="pdf_image_high_quality">Qualità elevata: ridimensionamento quando necessario, fino a 3200 px per lato.</string>
+    <string name="pdf_image_compact">Compatto: fino a 2200 px per lato; JPEG qualità 80 per immagini opache. Trasparenza preservata.</string>
+</resources>

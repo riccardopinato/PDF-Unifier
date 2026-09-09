@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">合并 PDF</string>
+    <string name="tab_image_to_pdf">图片转 PDF</string>
+    <string name="tab_split_pdf">拆分 PDF</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">合并您的 PDF</string>
+    <string name="title_image_to_pdf">图片转 PDF</string>
+    <string name="title_split_pdf">拆分您的 PDF</string>
+    <string name="subtitle_merge_pdf">在本地合并多个 PDF 文件并即时分享。</string>
+    <string name="subtitle_image_to_pdf">将照片排版并转换为 PDF 文档。</string>
+    <string name="subtitle_split_pdf">提取指定页面范围并创建新的 PDF 文档。</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ 添加 PDF</string>
+    <string name="add_images_btn">+ 添加图片</string>
+    <string name="select_pdf_btn">+ 选择 PDF</string>
+    <string name="clear_list_btn">清空列表</string>
+    <string name="list_cleared">列表已清空</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">已选文档 (%1$d):</string>
+    <string name="selected_images_count">已选图片 (%1$d):</string>
+    <string name="selected_split_file_count">待拆分文件 (%1$d):</string>
+    <string name="reorder_hint">使用箭头调整顺序</string>
+    <string name="no_files_merge_placeholder">未选择任何文件。\n请至少添加两个 PDF 以进行合并。</string>
+    <string name="no_files_images_placeholder">未选择任何图片。\n请添加照片以生成 PDF。</string>
+    <string name="no_files_split_placeholder">未选择 PDF 文件。\n请载入需要拆分的文件。</string>
+    <string name="no_files_selected">未选择任何文件。\n请至少添加两个 PDF 以进行合并。</string>
+    <string name="no_images_selected">未选择任何图片。\n请添加照片以生成 PDF。</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">提取页面范围</string>
+    <string name="split_load_hint">载入 PDF 以查看可用总页数</string>
+    <string name="split_total_pages">文件总页数: %1$d</string>
+    <string name="split_from_label">从:</string>
+    <string name="split_to_label">到:</string>
+    <string name="split_invalid_range">所选页面范围无效！</string>
+    <string name="toast_splitting">正在提取页面…</string>
+    <string name="split_save_btn">拆分并保存</string>
+    <string name="split_share_btn">拆分并分享</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">上移</string>
+    <string name="move_down">下移</string>
+    <string name="remove_file">移除文件</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">PDF 压缩</string>
+    <string name="compress_subtitle">减小最终文件的大小</string>
+    <string name="compress_pdf_title">PDF 压缩</string>
+    <string name="compress_images_title">图片质量</string>
+    <string name="compress_pdf_active_subtitle">图片优化已开启 (~50%)</string>
+    <string name="compress_images_active_subtitle">JPEG 压缩已启用（~50% 质量以减小体积）</string>
+    <string name="compress_inactive_subtitle">减小最终文件的大小</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">合并并保存</string>
+    <string name="merge_share_btn">合并并分享</string>
+    <string name="convert_save_btn">转换并保存</string>
+    <string name="convert_share_btn">转换并分享</string>
+    <string name="processing">正在处理…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">操作成功完成！</string>
+    <string name="share_again">再次分享</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">100% 离线与隐私 PDF 工具套件：\n\n• 合并 PDF：按自选顺序合并多个 PDF 文档\n• 图片转 PDF：将照片 (JPG, PNG, WebP) 转换为 PDF\n• 离线压缩：优化嵌入图片以缩减文件大小\n• 直接保存至文档并支持快速分享</string>
+    <string name="dialog_ok">确定</string>
+    <string name="info_title">信息与隐私</string>
+    <string name="info_message">PDF Unifier Pro 是一款 100% 离线且注重隐私的应用。所有处理均在本地完成，您的文件绝不会上传到任何服务器。\n\n版本：1.0.0\n引擎：PDFBox-Android</string>
+    <string name="info_privacy_button">隐私政策</string>
+    <string name="info_close_button">关闭</string>
+    <string name="error_open_link">无法打开链接。</string>
+
+    <!-- History Strings -->
+    <string name="history_title">PDF 历史记录</string>
+    <string name="history_empty">尚无生成的 PDF。\n处理过的文件将显示在此处！</string>
+    <string name="history_open">打开</string>
+    <string name="history_share">分享</string>
+    <string name="history_delete">删除</string>
+    <string name="history_type_merge">合并 PDF</string>
+    <string name="history_type_image_to_pdf">图片转 PDF</string>
+    <string name="history_type_split">拆分 PDF</string>
+    <string name="history_btn_desc">历史记录</string>
+    <string name="history_file_not_found">设备上找不到该文件。</string>
+    <string name="history_item_deleted">已从历史记录中移除。</string>
+    <string name="history_clear_all">清空全部</string>
+    <string name="no_pdf_viewer_app">未安装可查看 PDF 的应用。</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">正在合并文档…</string>
+    <string name="converting_toast">正在从图片生成 PDF…</string>
+    <string name="success_toast">PDF 处理成功！</string>
+    <string name="toast_merging">正在合并文档…</string>
+    <string name="toast_merging_compress">正在合并并压缩…</string>
+    <string name="toast_converting">正在从图片生成 PDF…</string>
+    <string name="toast_saved_documents">已保存：%1$s 至文档！</string>
+    <string name="toast_completed_sharing">PDF 就绪！正在打开分享面板…</string>
+    <string name="toast_error">错误：%1$s</string>
+    <string name="toast_share_error">分享错误：%1$s</string>
+    <string name="unknown_size">未知大小</string>
+    <string name="default_doc_name">文档</string>
+</resources>

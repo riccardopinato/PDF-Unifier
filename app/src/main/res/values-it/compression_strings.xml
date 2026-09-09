@@ -1,0 +1,7 @@
+<resources>
+    <string name="pdf_compress_action">Comprimi PDF</string>
+    <string name="pdf_compress_explanation" formatted="false">Ottimizza le immagini RGB opache compatibili con JPEG qualità 85. Il dettaglio delle immagini può diminuire. Mantiene i byte originali se il risparmio è inferiore al 2%.</string>
+    <string name="pdf_compress_report">%1$s → %2$s. Immagini ottimizzate: %3$d.</string>
+    <string name="pdf_compress_unchanged">Nessuna riduzione adatta: mantenuti i byte originali. Il documento può essere già ottimizzato o contenere immagini escluse, firme, cifratura o moduli.</string>
+    <string name="pdf_compress_checkbox">Ottimizzazione prudente delle immagini; la riduzione non è garantita.</string>
+</resources>

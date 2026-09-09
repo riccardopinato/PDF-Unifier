@@ -1,0 +1,6 @@
+<resources>
+    <string name="reader_thumbnails">Pagine</string>
+    <string name="reader_go_to_page">Vai alla pagina</string>
+    <string name="reader_go">Vai</string>
+    <string name="reader_thumbnail_failed">Anteprima non disponibile</string>
+</resources>

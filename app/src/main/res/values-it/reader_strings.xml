@@ -1,0 +1,15 @@
+<resources>
+    <string name="reader_preview">Leggi PDF</string>
+    <string name="reader_back">Indietro</string>
+    <string name="reader_external">Apri con un’altra app</string>
+    <string name="reader_empty">Questo PDF non contiene pagine.</string>
+    <string name="reader_cannot_open">Impossibile aprire il PDF. Potrebbe essere non disponibile, danneggiato, oltre 256 MiB o protetto da password. Puoi provare con un’altra app.</string>
+    <string name="reader_page_failed">Impossibile visualizzare questa pagina. Prova un’altra pagina o apri il PDF con un’altra app.</string>
+    <string name="reader_page">Pagina %1$d</string>
+    <string name="reader_page_count">%1$d / %2$d</string>
+    <string name="reader_previous">Precedente</string>
+    <string name="reader_next">Successiva</string>
+    <string name="reader_zoom_out">Zoom −</string>
+    <string name="reader_zoom_in">Zoom +</string>
+    <string name="reader_fit">Adatta</string>
+</resources>

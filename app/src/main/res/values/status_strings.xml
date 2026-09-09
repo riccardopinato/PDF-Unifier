@@ -1,0 +1,6 @@
+<resources>
+    <string name="processing_title">Processing PDF</string>
+    <string name="processing_message">Please wait while your document is prepared.</string>
+    <string name="operation_error_title">Operation failed</string>
+    <string name="operation_complete_title">PDF ready</string>
+</resources>

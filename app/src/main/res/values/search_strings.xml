@@ -1,0 +1,17 @@
+<resources>
+    <string name="search_label">Find text</string>
+    <string name="search_action">Find</string>
+    <string name="search_close">Close search</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_running">Searching PDF…</string>
+    <string name="search_summary">%1$d matches across %2$d pages</string>
+    <string name="search_none">No matches in the searched pages.</string>
+    <string name="search_no_text">No extractable text in the searched pages. Scanned documents may need OCR.</string>
+    <string name="search_partial">Partial search: first %1$d of %2$d pages.</string>
+    <string name="search_previous">Previous result</string>
+    <string name="search_next">Next result</string>
+    <string name="search_first">Open first result</string>
+    <string name="search_selected">Result on page %1$d: %2$d matches</string>
+    <string name="search_error">Search failed. The PDF may be unavailable, damaged or restricted.</string>
+    <string name="search_too_complex">A page is too complex for this search. Try opening the PDF in another app.</string>
+</resources>

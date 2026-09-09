@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PDF Unifier</string>
+    <string name="app_display_name">PDF Unifier Pro</string>
+
+    <!-- Tabs -->
+    <string name="tab_merge_pdf">Объединить</string>
+    <string name="tab_image_to_pdf">Фото в PDF</string>
+    <string name="tab_split_pdf">Разделить PDF</string>
+
+    <!-- Headers & Subtitles -->
+    <string name="title_merge_pdf">Объедините ваши PDF</string>
+    <string name="title_image_to_pdf">Фото в PDF</string>
+    <string name="title_split_pdf">Разделите ваш PDF</string>
+    <string name="subtitle_merge_pdf">Объединяйте PDF-файлы локально и делитесь ими мгновенно.</string>
+    <string name="subtitle_image_to_pdf">Преобразуйте ваши фото в единый документ PDF.</string>
+    <string name="subtitle_split_pdf">Извлеките диапазон страниц и создайте новый PDF-документ.</string>
+
+    <!-- Action Buttons -->
+    <string name="add_pdf_btn">+ Добавить PDF</string>
+    <string name="add_images_btn">+ Добавить фото</string>
+    <string name="select_pdf_btn">+ Выбрать PDF</string>
+    <string name="clear_list_btn">Очистить список</string>
+    <string name="list_cleared">Список очищен</string>
+
+    <!-- Counts & Placeholders -->
+    <string name="selected_documents_count">Выбрано документов (%1$d):</string>
+    <string name="selected_images_count">Выбрано фото (%1$d):</string>
+    <string name="selected_split_file_count">Файл для разделения (%1$d):</string>
+    <string name="reorder_hint">Используйте стрелки для изменения порядка</string>
+    <string name="no_files_merge_placeholder">Файлы не выбраны.\nДобавьте как минимум два PDF для объединения.</string>
+    <string name="no_files_images_placeholder">Изображения не выбраны.\nДобавьте фото для создания PDF.</string>
+    <string name="no_files_split_placeholder">PDF-файл не выбран.\nЗагрузите файл для разделения.</string>
+    <string name="no_files_selected">Файлы не выбраны.\nДобавьте как минимум два PDF для объединения.</string>
+    <string name="no_images_selected">Изображения не выбраны.\nДобавьте фото для создания PDF.</string>
+
+    <!-- Split Options Card -->
+    <string name="split_range_title">Диапазон извлечения</string>
+    <string name="split_load_hint">Загрузите PDF, чтобы увидеть доступные страницы</string>
+    <string name="split_total_pages">Всего страниц в файле: %1$d</string>
+    <string name="split_from_label">С:</string>
+    <string name="split_to_label">По:</string>
+    <string name="split_invalid_range">Недопустимый диапазон страниц!</string>
+    <string name="toast_splitting">Извлечение страниц…</string>
+    <string name="split_save_btn">Разделить и сохранить</string>
+    <string name="split_share_btn">Разделить и отправить</string>
+
+    <!-- Accessibility / Card Controls -->
+    <string name="move_up">Переместить вверх</string>
+    <string name="move_down">Переместить вниз</string>
+    <string name="remove_file">Удалить файл</string>
+
+    <!-- Compression Card -->
+    <string name="compress_title">Сжатие PDF</string>
+    <string name="compress_subtitle">Уменьшить размер готового файла</string>
+    <string name="compress_pdf_title">Сжатие PDF</string>
+    <string name="compress_images_title">Качество изображений</string>
+    <string name="compress_pdf_active_subtitle">Оптимизация изображений активна (~50%)</string>
+    <string name="compress_images_active_subtitle">Сжатие JPEG активно (~50% качества для экономии места)</string>
+    <string name="compress_inactive_subtitle">Уменьшить размер готового файла</string>
+
+    <!-- Execution Buttons -->
+    <string name="merge_save_btn">Объединить и сохранить</string>
+    <string name="merge_share_btn">Объединить и поделиться</string>
+    <string name="convert_save_btn">Конвертировать и сохранить</string>
+    <string name="convert_share_btn">Конвертировать и поделиться</string>
+    <string name="processing">Обработка…</string>
+
+    <!-- Result & Dialog -->
+    <string name="operation_success_title">Операция успешно завершена!</string>
+    <string name="share_again">Поделиться снова</string>
+    <string name="info_dialog_title">PDF Unifier Pro</string>
+    <string name="info_dialog_description">100% офлайн и конфиденциальный PDF-инструмент:\n\n• Объединение PDF: объединяйте файлы в нужном порядке\n• Фото в PDF: конвертируйте фото (JPG, PNG, WebP) в PDF\n• Офлайн-сжатие: оптимизация размера изображений\n• Сохранение в Документы и быстрый экспорт</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="info_title">Информация и конфиденциальность</string>
+    <string name="info_message">PDF Unifier Pro — это полностью автономное приложение. Все операции выполняются локально на вашем устройстве. Ваши документы никогда не загружаются на внешние серверы.\n\nВерсия: 1.0.0\nДвижок: PDFBox-Android</string>
+    <string name="info_privacy_button">Политика конфиденциальности</string>
+    <string name="info_close_button">Закрыть</string>
+    <string name="error_open_link">Не удалось открыть ссылку.</string>
+
+    <!-- History Strings -->
+    <string name="history_title">История PDF</string>
+    <string name="history_empty">PDF-файлы еще не созданы.\nОбработанные файлы появятся здесь!</string>
+    <string name="history_open">Открыть</string>
+    <string name="history_share">Поделиться</string>
+    <string name="history_delete">Удалить</string>
+    <string name="history_type_merge">Объединение PDF</string>
+    <string name="history_type_image_to_pdf">Изображения в PDF</string>
+    <string name="history_type_split">Разделение PDF</string>
+    <string name="history_btn_desc">История</string>
+    <string name="history_file_not_found">Файл больше не существует на устройстве.</string>
+    <string name="history_item_deleted">Элемент удален из истории.</string>
+    <string name="history_clear_all">Очистить все</string>
+    <string name="no_pdf_viewer_app">Нет приложения для просмотра PDF.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="merging_toast">Объединение документов…</string>
+    <string name="converting_toast">Создание PDF из изображений…</string>
+    <string name="success_toast">PDF успешно обработан!</string>
+    <string name="toast_merging">Объединение документов…</string>
+    <string name="toast_merging_compress">Объединение и сжатие…</string>
+    <string name="toast_converting">Создание PDF из изображений…</string>
+    <string name="toast_saved_documents">Сохранено: %1$s в папку Документы!</string>
+    <string name="toast_completed_sharing">PDF готов! Открытие меню отправки…</string>
+    <string name="toast_error">Ошибка: %1$s</string>
+    <string name="toast_share_error">Ошибка при отправке: %1$s</string>
+    <string name="unknown_size">Неизвестный размер</string>
+    <string name="default_doc_name">Документ</string>
+</resources>
