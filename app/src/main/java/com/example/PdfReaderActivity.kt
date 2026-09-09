@@ -22,7 +22,7 @@ class PdfReaderActivity : ComponentActivity() {
         enableEdgeToEdge()
         val uri = intent.data ?: run { finish(); return }
         reader = ViewModelProvider(this,
-            PdfReaderViewModel.factory(applicationContext, savedInstanceState?.getInt("reader_page") ?: 0)
+            PdfReaderViewModel.factory(applicationContext, savedInstanceState?.takeIf { it.containsKey("reader_page") }?.getInt("reader_page"))
         )[PdfReaderViewModel::class.java]
         reader.load(uri)
         val name = intent.getStringExtra(Intent.EXTRA_TITLE) ?: "PDF"
@@ -34,8 +34,13 @@ class PdfReaderActivity : ComponentActivity() {
         }
     }
 
+    override fun onStop() {
+        if (::reader.isInitialized) reader.persistPosition()
+        super.onStop()
+    }
+
     override fun onSaveInstanceState(outState: Bundle) {
-        if (::reader.isInitialized) outState.putInt("reader_page", reader.page.intValue)
+        if (::reader.isInitialized && reader.count.intValue > 0) outState.putInt("reader_page", reader.page.intValue)
         super.onSaveInstanceState(outState)
     }
 }

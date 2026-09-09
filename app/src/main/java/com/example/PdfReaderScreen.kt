@@ -51,6 +51,15 @@ internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: ()
     val count by model.count
     val page by model.page
     val error by model.error
+    val positionWarning by model.positionWarning
+    val snackbar = remember { SnackbarHostState() }
+    val positionErrorText = stringResource(R.string.reading_position_error)
+    LaunchedEffect(positionWarning) {
+        if (positionWarning) {
+            snackbar.showSnackbar(positionErrorText)
+            model.positionWarning.value = false
+        }
+    }
     var showBookmarks by rememberSaveable { mutableStateOf(false) }
     val bookmarkState = model.bookmarks.ui
     if (showBookmarks && count > 0) {
@@ -62,6 +71,7 @@ internal fun PdfReaderScreen(model: PdfReaderViewModel, name: String, onBack: ()
         PdfThumbnailSheet(model, onDismiss = { showThumbnails = false })
     }
     Scaffold(
+        snackbarHost = { SnackbarHost(snackbar) },
         topBar = {
             Column {
             TopAppBar(
