@@ -5,7 +5,7 @@
 | Repository | Uso | Branch | Commit | Ultimo commit (UTC) |
 |---|---|---|---|---|
 | [riccardopinato/App-Factory-Core](https://github.com/riccardopinato/App-Factory-Core) | Master, Golden e policy | `main` | [`c5adc147046b`](https://github.com/riccardopinato/App-Factory-Core/commit/c5adc147046beb7024629466d10eeb799c3c2619) | 2026-11-11T12:33:47Z |
-| [riccardopinato/Idee-app-Archivi-riferimenti](https://github.com/riccardopinato/Idee-app-Archivi-riferimenti) | Idee, capability e donor | `main` | [`342cef74a99b`](https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/commit/342cef74a99b47a31db3963ff0c0200977141b06) | 2026-11-12T16:34:38Z |
+| [riccardopinato/Idee-app-Archivi-riferimenti](https://github.com/riccardopinato/Idee-app-Archivi-riferimenti) | Idee, capability e donor | `main` | [`4becda9568ee`](https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/commit/4becda9568ee9520651a0220b0b1a2b570e5f19d) | 2026-11-13T13:21:57Z |
 
 ## Limiti
 
